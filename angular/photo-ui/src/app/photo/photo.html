@@ -1,0 +1,7 @@
+<div class="container">
+  <button (click)="fetchPhoto()">Random Picture!</button>
+
+  <div *ngIf="photoUrl" class="image-container">
+    <img [src]="photoUrl" alt="Random Photo" />
+  </div>
+</div>
